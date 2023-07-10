@@ -51,4 +51,9 @@ class ProductController extends Controller
 
         return view('cartlist',['products'=>$products]);
     }
+    function removeCart($id)
+    {
+        Cart::destroy($id);
+        return redirect('cartlist');
+    }
 }
