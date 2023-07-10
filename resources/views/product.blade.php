@@ -1,5 +1,5 @@
 @extends('master')
-@section("contents")
+@section("content")
 <div class="custom-product ">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
